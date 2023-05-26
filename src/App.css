@@ -1,0 +1,43 @@
+*{
+    margin: 0;   
+}
+
+    
+.box{
+    content: '';
+    overflow: hidden;
+    background-image: url(./www.webp);
+    background-position: cover;
+    background-repeat: none;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.outline{
+    margin: 5rem;
+    padding: 2rem;
+    width:50rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(65, 58, 51, 0.648);
+    backdrop-filter: blur(20px);  
+    height:100vh;
+}
+li{
+    list-style: none;
+}
+.list{
+    display:flex;
+    flex-direction: column;
+    
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
