@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 .box {
     width: 100%;
     background-image: url(./www.webp);
@@ -13,19 +11,17 @@
     position: relative;
     display: flex;
     justify-content: center;
-
-
 }
 
 .outline {
     margin: 0.5rem;
-    padding: 3rem;
+    padding:2rem;
     width: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(65, 58, 51, 0.475);
-    backdrop-filter: blur(20px);
+    background-color: rgba(81, 70, 59, 0.475);
+    backdrop-filter: blur(25px);
     height: 100vh;
 
 }
@@ -52,9 +48,11 @@ li {
 }
 
 h4 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500px;
-    line-height: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    line-height: 1.8rem;
+    font-size:large;
+    
 
 }
 
@@ -70,5 +68,5 @@ h1 {
     margin: 0;
 }
 .list{
-    padding-left: 4rem;
+    padding-left: 5rem;
 }
